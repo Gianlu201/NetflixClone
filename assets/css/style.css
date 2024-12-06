@@ -26,6 +26,9 @@ header nav a:visited {
 header nav a:hover {
   color: red !important;
 }
+header nav .dropdown-menu-end a:hover {
+  color: black !important;
+}
 header nav .navRight div {
   width: 40px;
 }
