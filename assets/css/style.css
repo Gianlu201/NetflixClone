@@ -99,4 +99,28 @@ footer nav span {
   color: gray;
 }
 
+form #accountPicture {
+  max-width: 250px;
+}
+form fieldset {
+  width: 50%;
+}
+form .commands button {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+form .commands button:not(:first-of-type) {
+  width: 190px;
+}
+form #username {
+  min-height: 50px;
+}
+form #btn-check-1 {
+  background-color: red !important;
+}
+form .check {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */

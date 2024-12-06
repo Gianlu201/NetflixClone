@@ -1,0 +1,33 @@
+form {
+  #accountPicture {
+    max-width: 250px;
+  }
+
+  fieldset {
+    width: 50%;
+  }
+
+  .commands {
+    button {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    button:not(:first-of-type) {
+      width: 190px;
+    }
+  }
+
+  #username {
+    min-height: 50px;
+  }
+
+  #btn-check-1 {
+    background-color: red !important;
+  }
+
+  .check {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+}
