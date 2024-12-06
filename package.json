@@ -1,0 +1,18 @@
+{
+  "name": "progetto_s6-l5",
+  "version": "1.0.0",
+  "description": "netflix_clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Gianlu201"
+  },
+  "author": "Gianlu201",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}
