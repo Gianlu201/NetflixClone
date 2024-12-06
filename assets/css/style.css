@@ -33,11 +33,6 @@ header nav #avatarMenu {
   width: 20px;
 }
 
-main section .corousel-inner img:hover {
-  opacity: 1 !important;
-  cursor: pointer !important;
-}
-
 main section .carousel-inner .row > div {
   margin-bottom: 5px;
   cursor: pointer;
