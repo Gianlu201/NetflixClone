@@ -38,8 +38,20 @@ form {
     }
   }
 
-  #btn-check-1 {
-    background-color: red !important;
+  #btn-check-1 + label,
+  #btn-check-2 + label {
+    display: block;
+    background-color: black !important;
+  }
+
+  #btn-check-1:checked + label,
+  #btn-check-2:checked + label {
+    color: red !important;
+  }
+
+  #btn-check-1:not(:checked) + label,
+  #btn-check-2:not(:checked) + label {
+    color: black !important;
   }
 
   .check {
