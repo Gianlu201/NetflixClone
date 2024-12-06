@@ -9,6 +9,12 @@ main section .corousel-inner img {
 main section .carousel-inner {
   .row > div {
     margin-bottom: 5px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1 !important;
+      transform: scale(1.06, 1.06);
+    }
   }
 
   .my-carousel-control-prev {

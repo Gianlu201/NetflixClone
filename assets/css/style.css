@@ -40,6 +40,11 @@ main section .corousel-inner img:hover {
 
 main section .carousel-inner .row > div {
   margin-bottom: 5px;
+  cursor: pointer;
+}
+main section .carousel-inner .row > div:hover {
+  opacity: 1 !important;
+  transform: scale(1.06, 1.06);
 }
 main section .carousel-inner .my-carousel-control-prev {
   position: absolute;
