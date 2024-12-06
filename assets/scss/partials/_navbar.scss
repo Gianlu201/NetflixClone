@@ -1,0 +1,18 @@
+header nav {
+  // li a {
+  //   transition-property: color !important;
+  //   transition-duration: 0.5s !important;
+  // }
+
+  li a:hover {
+    color: red !important;
+  }
+
+  .navRight div {
+    width: 40px;
+  }
+
+  #avatarMenu {
+    width: 20px;
+  }
+}
