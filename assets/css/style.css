@@ -127,6 +127,10 @@ form .commands button:not(:first-of-type) {
 form #username {
   min-height: 50px;
 }
+form #username:focus {
+  background-color: white !important;
+  color: black !important;
+}
 form #btn-check-1 {
   background-color: red !important;
 }
