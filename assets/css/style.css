@@ -38,6 +38,9 @@ main section .corousel-inner img:hover {
   cursor: pointer !important;
 }
 
+main section .carousel-inner .row > div {
+  margin-bottom: 5px;
+}
 main section .carousel-inner .my-carousel-control-prev {
   position: absolute;
   top: 0;
@@ -102,6 +105,15 @@ footer nav span {
 form #accountPicture {
   max-width: 250px;
 }
+form #changePicture {
+  top: 82%;
+  left: 30px;
+}
+form #changePicture .bi-pencil-fill {
+  font-size: 0.8em;
+  padding: 3px;
+  cursor: pointer;
+}
 form fieldset {
   width: 50%;
 }
@@ -121,6 +133,29 @@ form #btn-check-1 {
 form .check {
   font-size: 2.5em;
   line-height: 1em;
+}
+
+form #paypalLogo {
+  width: 70px;
+  height: 20px;
+  background-image: url("../imgs/paypal.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+form #actionsLink {
+  width: fit-content;
+}
+form #actionsLink a {
+  display: block;
+}
+
+a.actLink {
+  text-decoration: underline !important;
+}
+
+#picture {
+  width: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

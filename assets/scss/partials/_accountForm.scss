@@ -3,6 +3,17 @@ form {
     max-width: 250px;
   }
 
+  #changePicture {
+    top: 82%;
+    left: 30px;
+
+    .bi-pencil-fill {
+      font-size: 0.8em;
+      padding: 3px;
+      cursor: pointer;
+    }
+  }
+
   fieldset {
     width: 50%;
   }

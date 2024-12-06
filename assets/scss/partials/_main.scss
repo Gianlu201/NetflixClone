@@ -7,6 +7,10 @@ main section .corousel-inner img {
 }
 
 main section .carousel-inner {
+  .row > div {
+    margin-bottom: 5px;
+  }
+
   .my-carousel-control-prev {
     position: absolute;
     top: 0;

@@ -1,0 +1,22 @@
+form {
+  #paypalLogo {
+    width: 70px;
+    height: 20px;
+    background-image: url('../imgs/paypal.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #actionsLink {
+    width: fit-content;
+
+    a {
+      display: block;
+    }
+  }
+}
+
+a.actLink {
+  text-decoration: underline !important;
+}
