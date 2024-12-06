@@ -1,0 +1,33 @@
+footer {
+  .socials {
+    color: gray;
+    font-size: 1.5em;
+
+    span {
+      margin-right: 5px;
+
+      &:hover {
+        cursor: pointer;
+        color: red;
+      }
+    }
+  }
+
+  nav {
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: gray;
+
+      &:hover {
+        color: red;
+      }
+    }
+
+    span {
+      color: gray;
+    }
+  }
+}

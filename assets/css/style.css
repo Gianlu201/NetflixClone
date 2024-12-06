@@ -75,4 +75,28 @@ main section .carousel-inner .my-carousel-control-next {
   right: 0;
 }
 
+footer .socials {
+  color: gray;
+  font-size: 1.5em;
+}
+footer .socials span {
+  margin-right: 5px;
+}
+footer .socials span:hover {
+  cursor: pointer;
+  color: red;
+}
+footer nav li {
+  margin-bottom: 10px;
+}
+footer nav a {
+  color: gray;
+}
+footer nav a:hover {
+  color: red;
+}
+footer nav span {
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
