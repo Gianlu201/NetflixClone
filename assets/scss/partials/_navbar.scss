@@ -3,8 +3,13 @@ header nav {
   //   transition-property: color !important;
   //   transition-duration: 0.5s !important;
   // }
+  a:link,
+  a:visited {
+    color: white !important;
+    font-weight: 400;
+  }
 
-  li a:hover {
+  a:hover {
     color: red !important;
   }
 

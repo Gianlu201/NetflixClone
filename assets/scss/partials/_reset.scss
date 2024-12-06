@@ -4,7 +4,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  color: white;
+}
+
 a:link,
 a:visited {
   text-decoration: none !important;
+}
+
+ul li {
+  list-style-type: none;
 }

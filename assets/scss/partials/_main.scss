@@ -1,0 +1,47 @@
+main section .corousel-inner img {
+  // TODO da sistemare opacità quandi si va in hover
+  &:hover {
+    opacity: 1 !important;
+    cursor: pointer !important;
+  }
+}
+
+main section .carousel-inner {
+  .my-carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    left: 0;
+  }
+
+  .my-carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    right: 0;
+  }
+}

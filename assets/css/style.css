@@ -4,12 +4,26 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  color: white;
+}
+
 a:link,
 a:visited {
   text-decoration: none !important;
 }
 
-header nav li a:hover {
+ul li {
+  list-style-type: none;
+}
+
+header nav a:link,
+header nav a:visited {
+  color: white !important;
+  font-weight: 400;
+}
+header nav a:hover {
   color: red !important;
 }
 header nav .navRight div {
@@ -17,6 +31,48 @@ header nav .navRight div {
 }
 header nav #avatarMenu {
   width: 20px;
+}
+
+main section .corousel-inner img:hover {
+  opacity: 1 !important;
+  cursor: pointer !important;
+}
+
+main section .carousel-inner .my-carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  left: 0;
+}
+main section .carousel-inner .my-carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
